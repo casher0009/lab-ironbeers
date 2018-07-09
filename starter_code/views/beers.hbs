@@ -1,0 +1,10 @@
+<h2>Lista de Cervezas</h2>
+{{#each Cervezas as |u| }}
+
+{{#if u.name}}
+<h3>{{u.name}}</h3>
+<h5>tipo: {{u.type}}</h5>
+
+{{/if}}
+
+{{/each}}
